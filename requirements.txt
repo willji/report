@@ -1,0 +1,5 @@
+Django==1.10.2
+PyMySQL==0.7.9
+influxdb==3.0.0
+gunicorn==19.6.0
+py-zabbix==1.1.0

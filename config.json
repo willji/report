@@ -1,0 +1,36 @@
+{
+  "influxdb": {
+    "url": "influxdb.ops.ymatou.cn",
+    "port": 80,
+    "user": "",
+    "password": "",
+    "db": "yms"
+  },
+  "zabbix": {
+    "url": "http://zabbixserver.ymatou.cn",
+    "user": "admin",
+    "password": "abcd@1234"
+  },
+  "cmdb": {
+    "Authorization": "token 354389e68419190e77ecac39a3dd50b2b83714e0",
+    "url": "http://cmdb_v2.ops.ymatou.cn/api/cmdb/applications/applicationgroup.json"
+  },
+  "release": {
+    "host": "db25117",
+    "user": "jiraconnuser",
+    "passwd": "Uo0gjOTjcMTaUbG2iITO",
+    "db": "jiraconnector",
+    "port": 3306,
+    "charset": "utf8"
+  },
+  "alarm": {
+    "cookies": {
+      "ASP.NET_SessionId": "acfnzz0rhv4yfq3sze4st4sc"
+    },
+    "url": "http://alarmmanager.ymatou.cn/AdminConfig/SearchStatistics",
+    "login_url": "http://alarmmanager.ymatou.cn/Login/Login",
+    "search_url": "http://alarmmanager.ymatou.cn/Alarm/Search",
+    "username": "ymatouuser",
+    "password": "123456"
+  }
+}
